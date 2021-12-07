@@ -5,6 +5,7 @@ from algosdk import account, mnemonic
 from algosdk.v2client import algod
 from algosdk.future.transaction import AssetConfigTxn
 
+# code for creating an NFT
 def nft_txn(private_key, my_address):
     algod_address = "http://localhost:4001"
     algod_token = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
